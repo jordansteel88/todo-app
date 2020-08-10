@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(85deg, rgb(174, 227, 248), rgb(84, 200, 247));
+    /* background-image: url("https://images.unsplash.com/photo-1570483358100-6d222cdea6ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80"); */
+    color: royalblue;
+    font-family: 'Recursive', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.todo-form {
+    text-align: center;
+    justify-content: center;
+}
+
+.todo-input {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 3px;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.btn-add {
+    display: block;
+    margin: 1rem auto 3rem auto;
+    color: lightblue;
+    background-color: royalblue;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.todo-list {
+    margin: 2rem auto 0 auto;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    list-style: none;
+    width: 400px;
+}
+
+.todo-item {
+    margin: 1rem auto;
+}
+
+span {
+    width: 90%;
+    display: inline-block;
+}
+
+.todo-item:hover {
+    background-color: rgb(114, 198, 250);
+    transition: all .3s;
+}
+
+.btn-remove {
+    color: lightblue;
+    background-color: royalblue;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    float: right;
+    vertical-align: middle;
+    margin-top: .3rem
+}
+
+.isCompleted {
+    text-decoration: line-through;
+    color: rgb(27, 192, 247);
+}
